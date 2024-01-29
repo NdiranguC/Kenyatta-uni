@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    height: 433px;
+    background-image: url("photos/gate.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h2 {
+    color: yellow;
+    font-family: 'Graduate', serif;
+    font-family: 'Happy Monkey', system-ui;
+    font-size: 40px;
+    text-shadow: 0 0 5px black;
+}
+
+.ku-logo {
+    width: 160px;
+}
+
+.intro-section {
+    margin: 0;
+    background-color: #E5E4E2;
+}
+
+.about {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Sintony', sans-serif;
+    font-weight: 600;
+    color: #1f2022;
+    padding: 8px 16px 8px 16px;
+}
+
+.fac-title {
+    margin: 0;
+    background: #fefcfb;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Titan One', sans-serif;
+    color: #96c5f7;
+    text-align: center;
+    font-size: 44px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.facilities {
+    background: #f8f0f8;
+}
+
+
+
+.back-img {
+    margin: 0 0 40px 0;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    border-radius: 50px;
+}
+
+#admin-img {
+    background-repeat: no-repeat;
+    background-image: url("photos/admin1.jpg");
+    background-position: 50% ;
+}
+
+#campanile {
+    background-repeat: no-repeat;
+    background-image: url("photos/campanile.jpg");
+    background-position: 50% 10%;
+}
+
+#library {
+    background-repeat: no-repeat;
+    background-image: url("photos/library.jpg");
+    background-position: 50% 10%;
+}
+
+#path {
+    background-repeat: no-repeat;
+    background-image: url("photos/path.jpg");
+    background-position: 50% 60%;
+}
+
+#scenary {
+    background-repeat: no-repeat;
+    background-image: url("photos/scenary.jpg");
+    background-position: 50% 50%;
+}
+
+.description {
+    margin: 0;
+    color: #f8f0f8;
+    font-size: 37px;
+    font-weight: 600
+}
